@@ -6,9 +6,9 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
-    },
+        question: 
+    },'Where was pizza invented',
+        answer: 'Italy',
     {
         points: 200,
         question:
