@@ -6,26 +6,29 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 
-    },'Where was pizza invented',
+        question: 'Where was pizza invented',
+        imgSrc: "pizza-pic.jpg",
         answer: 'Italy',
+    },
     {
         points: 200,
         question:
             'Which country\'s flag is this?',
-        imgSrc: "https://en.wikipedia.org/wiki/France#/media/File:Flag_of_France.svg",
+        imgSrc: "france-flag.jpg",
         answer: 'France',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'What square / plaza of Manhattan is this?',
+            imgSrc: "union-square.jpg",
+        answer: 'Union Square',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'What does Philosophia mean?',
+        imgSrc: "athena.jpeg",
+        answer: 'Love of wisdom',
     }
 ]);
 
@@ -33,56 +36,74 @@ const presentQuestions: Question[] =
     sortQuestions([
         {
             points: 400,
-            question:
-                'This is Donu, a character from which video game?',
-            imgSrc: '/donu-gif.gif',
-            answer: 'Slay the Spire',
+            question: 'What is the second fastest moving objecct in the Olympics?',
+            imgSrc: "fencing.jpg",
+            answer: 'Tip of a Fencing Blade',
         },
         {
             points: 100,
             question:
-                'Tahini is made from which seed?',
-            imgSrc: 'https://www.aforkstale.com/wp-content/uploads/how-to-make-homemade-tahini-1200-x-1200.jpg',
-            answer: 'Sesame',
+                'What genre of music originated in the Bronx in the 1970s?',
+            imgSrc: "hiphop.jpg",
+            answer: 'Hip Hop & Rap',
         },
         {
             points: 200,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'What famous math problem is this?',
+            imgSrc: "collatzconjecture.jpg",
+            answer: 'Collatz Conjecture',
         },
         {
             points: 300,
             question:
-                'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
+                'What type of car is this?',
             imgSrc:
-                "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-            answer: 'Italy',
+                "formula1.jpg",
+            answer: 'Formula 1',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This type of 2D drawing allows you to see the sides of a 3D object at the same scale.',
+            'This famous activist captured the attention of the world when she was only 15 years old?',
         imgSrc:
-            "https://static.mathigon.org/cms/a8141a111490d026fa6578a4933d1d47.png",
-        answer: 'Isometric',
+            "greta.jpeg",
+        answer: 'Greta Thunberg',
+    },
+    {
+        points: 200,
+        question: 
+        'According to the US National Science Foundation, roughly 25% of the US workforce is in this field',
+        imgSrc: "stem.jpg",
+        answer: 'STEM',
+
+    },
+    {
+        points: 300,
+        question: 'The Largest Walt Disney World Resort resides in this city.',
+        imgSrc: "orlando.jpg",
+        answer: 'Orlando, Florida',
+    },{
+        points: 400,
+        question: 'Where can you use this card?',
+        imgSrc: "omny.jpg",
+        answer: 'New York City Subway',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'Ms Feng\'s Past',
+        title: 'Sofia Cafagna\'s Past',
         questions: pastQuestions
     },
     {
-        title: `Ms. Feng's Present`,
+        title: `Sofia Cafagna's Present`,
         questions: presentQuestions
     },
     {
-        title: "Ms. Feng's Future",
+        title: "Sofia Cafagna's Future",
         questions: futureQuestions
     }
 ];
