@@ -7,7 +7,7 @@ const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question: 'Where was pizza invented',
-        imgSrc: "pizza-pic.jpg",
+        imgSrc: "pizza-pic.jpeg",
         answer: 'Italy',
     },
     {
