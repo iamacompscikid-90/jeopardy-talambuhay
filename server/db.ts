@@ -87,7 +87,7 @@ const futureQuestions: Question[] = sortQuestions([
     },{
         points: 100,
         question: 'In what city can you use this card?',
-        imgSrc: "omny.jpg",
+        imgSrc: "OMNY.jpeg",
         answer: 'New York City',
     }
 ]);
