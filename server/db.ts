@@ -35,7 +35,7 @@ const pastQuestions: Question[] = sortQuestions([
 const presentQuestions: Question[] =
     sortQuestions([
         {
-            points: 400,
+            points: 300,
             question: 'What is the second fastest moving object in the Olympics?',
             imgSrc: "fencing.jpg",
             answer: 'A Fencing Blade',
@@ -48,7 +48,7 @@ const presentQuestions: Question[] =
             answer: 'Hip Hop',
         },
         {
-            points: 300,
+            points: 400,
             question: 'What famous math problem is this?',
             imgSrc: "collatzconjecture.jpg",
             answer: 'Collatz Conjecture',
@@ -56,7 +56,7 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'What type of car is this?',
+                'In what sport do drivers race in cars that can reach speeds of over 200 mph?',
             imgSrc:
                 "formula1.jpg",
             answer: 'Formula 1',
@@ -74,7 +74,7 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 400,
         question: 
-        'What job contains roughly 25% of the US workforce?',
+        'What job field contains roughly 25% of the US workforce?',
         imgSrc: "stem.jpg",
         answer: 'STEM',
 
