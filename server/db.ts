@@ -6,7 +6,7 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 200,
-        question: 'Where was pizza invented',
+        question: 'Where was pizza invented?',
         imgSrc: "pizza-pic.jpeg",
         answer: 'Italy',
     },
@@ -26,7 +26,7 @@ const pastQuestions: Question[] = sortQuestions([
     },
     {
         points: 300,
-        question: 'What does Philosophia mean?',
+        question: 'What does the Greek word "Philosophia" mean?',
         imgSrc: "athena.jpeg",
         answer: 'Love of wisdom',
     }
@@ -56,7 +56,7 @@ const presentQuestions: Question[] =
         {
             points: 100,
             question:
-                'In what sport do drivers race in cars that can reach speeds of over 200 mph?',
+                'In what sport do drivers race in these types of cars?',
             imgSrc:
                 "formula1.jpg",
             answer: 'Formula 1',
@@ -66,7 +66,7 @@ const futureQuestions: Question[] = sortQuestions([
     {
         points: 200,
         question:
-            'Which famous activist captured the attention of the world when she was only 15 years old?',
+            'Which famous activist made global headlines when she was only 15 years old?',
         imgSrc:
             "greta.jpeg",
         answer: 'Greta Thunberg',
@@ -99,11 +99,11 @@ const categories = [
         questions: pastQuestions
     },
     {
-        title: `Sofia Cafagna's Present`,
+        title: 'Sofia Cafagna\'s Present',
         questions: presentQuestions
     },
     {
-        title: "Sofia Cafagna's Future",
+        title: 'Sofia Cafagna\'s Future',
         questions: futureQuestions
     }
 ];
