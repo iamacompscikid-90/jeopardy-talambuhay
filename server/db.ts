@@ -9,6 +9,7 @@ const pastQuestions: Question[] = sortQuestions([
         question: 'Where was pizza invented?',
         imgSrc: "pizza-pic.jpeg",
         answer: 'Italy',
+        //hmmmm i wonder...
     },
     {
         points: 100,
@@ -16,6 +17,7 @@ const pastQuestions: Question[] = sortQuestions([
             'Which country\'s flag is this?',
         imgSrc: "france-flag.jpg",
         answer: 'France',
+        //went there when i was 11
     },
     {
         points: 400,
@@ -23,12 +25,14 @@ const pastQuestions: Question[] = sortQuestions([
             'What square / plaza of Manhattan is this?',
             imgSrc: "union-square.jpg",
         answer: 'Union Square',
+        //born and lived here for 1st 6 years of my life
     },
     {
         points: 300,
         question: 'What does the Greek word "Philosophia" mean?',
         imgSrc: "athena.jpeg",
         answer: 'Love of wisdom',
+        //sophia = sofia (where i got my name)
     }
 ]);
 
@@ -39,6 +43,7 @@ const presentQuestions: Question[] =
             question: 'What is the second fastest moving object in the Olympics?',
             imgSrc: "fencing.jpg",
             answer: 'A Fencing Blade',
+            //i fence
         },
         {
             points: 200,
@@ -46,12 +51,14 @@ const presentQuestions: Question[] =
                 'What genre of music originated in the Bronx in the 1970s?',
             imgSrc: "hiphop.jpg",
             answer: 'Hip Hop',
+            //i listen to hip hop 
         },
         {
             points: 400,
             question: 'What famous math problem is this?',
             imgSrc: "collatzconjecture.jpg",
             answer: 'Collatz Conjecture',
+            //i love math
         },
         {
             points: 100,
@@ -60,6 +67,7 @@ const presentQuestions: Question[] =
             imgSrc:
                 "formula1.jpg",
             answer: 'Formula 1',
+            //watch f1 w my dad
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -70,6 +78,7 @@ const futureQuestions: Question[] = sortQuestions([
         imgSrc:
             "greta.jpeg",
         answer: 'Greta Thunberg',
+        //gretas my sister going to go to be a highschooler
     },
     {
         points: 400,
@@ -77,6 +86,7 @@ const futureQuestions: Question[] = sortQuestions([
         'What job field contains roughly 25% of the US workforce?',
         imgSrc: "stem.jpg",
         answer: 'STEM',
+        // like stem
 
     },
     {
@@ -84,11 +94,13 @@ const futureQuestions: Question[] = sortQuestions([
         question: 'The Largest Walt Disney World Resort resides in this city.',
         imgSrc: "orland.jpg",
         answer: 'Orlando, Florida',
+        //going to orlando for tournament in 2 weeks
     },{
         points: 100,
         question: 'In what city can you use this card?',
         imgSrc: "OMNY.jpeg",
         answer: 'New York City',
+        //plan to stay in the city
     }
 ]);
 
